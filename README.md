@@ -19,7 +19,7 @@ EcoFront is a mobile application designed to educate and empower individuals to 
 - **Backend Development:**
   - [Node.js](https://nodejs.org/) for server-side logic.
   - [Express.js](https://expressjs.com/) for building the RESTful API.
-  - [Firebase Cloud Functions](https://firebase.google.com/docs/functions) for serverless backend operations.
+  - [Google's Gemini Vision Pro model](https://ai.google.dev/docs) for advanced image recognition and processing.
 - **Database:**
   - [Firebase Firestore](https://firebase.google.com/docs/firestore) for storing user data, task information, and EcoCoins transactions.
 
