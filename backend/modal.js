@@ -16,13 +16,13 @@ function fileToGenerativePart(path, mimeType) {
 
 async function run() {
   // For text-and-image input (multimodal), use the gemini-pro-vision model
-  const model = genAI.getGenerativeModel({ model: "gemini-pro-vision" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
   const prompt = "Is this is a bus ticket ? reply in Yes or No and also find the distance travelled";
 
   const imageParts = [
-    fileToGenerativePart("bus2.jpeg", "image/jpeg"),
-    // fileToGenerativePart("bus1.jpeg", "image/jpeg"),
+    fileToGenerativePart("bus4.jpg", "image/jpeg"),
+    // fileToGenerativePart("bus3.jpeg", "image/jpeg"),
     // fileToGenerativePart("train1.jpeg", "image/jpeg"),
     // fileToGenerativePart("dog.jpeg", "image/jpeg"),
   ];
